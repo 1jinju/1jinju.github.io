@@ -69,7 +69,7 @@ Albedo, Metallic과 Smoothness를 조정하여 마음에 드는 색으로 바꿔
 
 
 ## NetworkManager
-![Door 프리팹 추가](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fr8Lud%2FbtrSaq6K4Kh%2FkbdJcjxkDr4565btTOLqJ0%2Fimg.png()
+![Door 프리팹 추가](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fr8Lud%2FbtrSaq6K4Kh%2FkbdJcjxkDr4565btTOLqJ0%2Fimg.png)
 
 인스펙터 뷰에서 NetworkManager 안에 있는 NetworkPrefabs에 +버튼을 눌러 Door 프리팹을 추가합니다.<br>
 
