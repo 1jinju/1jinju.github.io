@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 멀티플레이어 네트워크 동기화 3
+title: 멀티플레이어 네트워크 동기화 4
 subtitle: Unity
 cover-img: /assets/img/black.jpg
 thumbnail-img: https://blog.kakaocdn.net/dn/XtmvO/btrR9G3mUEt/UNHBOKks0dcPF87jpBqeDk/img.png
@@ -129,6 +129,7 @@ public class DoorCtrl : NetworkBehaviour
 }
 ```
 참고: [NetworkVariable | Unity Multiplayer Networking (unity3d.com)]
+
 [NetworkVariable | Unity Multiplayer Networking (unity3d.com)]: https://docs-multiplayer.unity3d.com/netcode/current/basics/networkvariable/index.html
 
 
