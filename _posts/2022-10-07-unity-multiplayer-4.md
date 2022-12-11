@@ -5,7 +5,7 @@ subtitle: Unity
 cover-img: /assets/img/black.jpg
 thumbnail-img: https://blog.kakaocdn.net/dn/XtmvO/btrR9G3mUEt/UNHBOKks0dcPF87jpBqeDk/img.png
 share-img: /assets/img/black.jpg
-tags: [컴공, unity, 멀티플레이어, 네트워크 동기화]
+tags: [Unity]
 ---
 
 저번에 하던 문 상태 동기화를 마무리해보겠습니다.<br>
@@ -128,11 +128,8 @@ public class DoorCtrl : NetworkBehaviour
     }
 }
 ```
-참고: [NetworkVariable | Unity Multiplayer Networking (unity3d.com)]
-
-[NetworkVariable | Unity Multiplayer Networking (unity3d.com)]: https://docs-multiplayer.unity3d.com/netcode/current/basics/networkvariable/index.html
-
-
+참고: [NetworkVariable | Unity Multiplayer Networking (unity3d.com)](https://docs-multiplayer.unity3d.com/netcode/current/basics/networkvariable/index.html)
+ 
 이 DoorCtrl.cs은 ToggleServerRpc()가 실행될 때마다 서버에서 현재 open.Value의 값을 받아 반대로 바꿔줍니다.<br>
 문이 열려 있다면 닫힌 상태로 만들어주고, 닫혀 있다면 열린 상태로 만들어주는 것입니다.<br>
 <br>

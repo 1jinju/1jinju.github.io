@@ -5,7 +5,7 @@ subtitle: Unity
 cover-img: /assets/img/black.jpg
 thumbnail-img: https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbP8p8F%2FbtrRSQycJcN%2FNn3kS6wcYsLK5kOK4xwV4k%2Fimg.png
 share-img: /assets/img/black.jpg
-tags: [컴공, unity, 멀티플레이어, 네트워크 동기화]
+tags: [Unity]
 ---
 
 최근에 학과 전시회에 출품하려고 유니티로 공포게임을 만들었는데, 많은 걸.. 배워서 글을 써봅니다.

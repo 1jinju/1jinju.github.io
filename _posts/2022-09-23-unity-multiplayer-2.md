@@ -5,7 +5,7 @@ subtitle: Unity
 cover-img: /assets/img/black.jpg
 thumbnail-img: https://blog.kakaocdn.net/dn/bpiLw9/btrRY1FBJvJ/Asm6fJlnroU68LSM1cydO1/img.png
 share-img: /assets/img/black.jpg
-tags: [컴공, unity, 멀티플레이어, 네트워크 동기화]
+tags: [Unity]
 ---
 
 지난 글에서 패키지를 설치하고 필요한 오브젝트와 컴포넌트를 추가했는데요.<br>

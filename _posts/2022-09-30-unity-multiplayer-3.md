@@ -5,7 +5,7 @@ subtitle: Unity
 cover-img: /assets/img/black.jpg
 thumbnail-img: https://blog.kakaocdn.net/dn/cYCW9l/btrR5xNeSAL/OSx5KSI1O92hJf8QKEO470/img.png
 share-img: /assets/img/black.jpg
-tags: [컴공, unity, 멀티플레이어, 네트워크 동기화]
+tags: [Unity]
 ---
 
 
