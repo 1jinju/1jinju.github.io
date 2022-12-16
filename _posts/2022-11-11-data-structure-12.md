@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ch 12. 정렬 2
+title: Ch 12. 탐색 2
 subtitle: 윤성우의 열혈 자료구조
 cover-img: /assets/img/black.jpg
 thumbnail-img: https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4ad0d30f-c2e9-4bac-a1a1-a2277a672fae/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T195114Z&X-Amz-Expires=86400&X-Amz-Signature=19a8338fcc03e75a3a0c00fb8d61dd1b6b3832c4e2e16d2c9a5af6091fd0f5d8&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject
