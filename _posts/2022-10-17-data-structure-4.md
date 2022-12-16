@@ -3,7 +3,7 @@ layout: post
 title: Ch 4. 연결 리스트 2
 subtitle: 윤성우의 열혈 자료구조
 cover-img: /assets/img/black.jpg
-thumbnail-img: https://s3.us-west-2.amazonaws.com/secure.notion-static.com/790bbb87-6511-4d6d-9e92-e649e2de1a41/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T164814Z&X-Amz-Expires=86400&X-Amz-Signature=cfa199a843e62d7477572fcacf6e64297c8d400ee45fc6d96c1bb274b3151ca7&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject
+thumbnail-img: https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbrMdvl%2Fbtru9PPMAsS%2FXe0TnnQshSDk0COX2vxaI1%2Fimg.png
 share-img: /assets/img/path.jpg
 tags: [자료구조]
 ---
@@ -15,7 +15,7 @@ tags: [자료구조]
 연결 기반의 리스트
 
 배열은 메모리의 특성이 정적이어서 메모리의 길이를 변경하는 것이 불가능하다.  
-연결 리스트는 메모리의 동적 할당 가능  
+`연결 리스트는 메모리의 동적 할당 가능하다.`   
 
 malloc 함수와 free 함수를 통해 메모리 동적 할당을 하는 C 언어와는 달리 파이썬은 메모리의 할당과 해제가 파이썬 인터프리터에 의해 자동으로 관리된다.
 
@@ -79,7 +79,7 @@ a.remove('4')
 a.show()
 ```
 
-![실행결과](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/790bbb87-6511-4d6d-9e92-e649e2de1a41/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T164814Z&X-Amz-Expires=86400&X-Amz-Signature=cfa199a843e62d7477572fcacf6e64297c8d400ee45fc6d96c1bb274b3151ca7&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+![실행결과](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbrMdvl%2Fbtru9PPMAsS%2FXe0TnnQshSDk0COX2vxaI1%2Fimg.png)
 
 <br>
 
@@ -111,7 +111,7 @@ def sortList(self, head: Node)->Node: # 정렬
 
 ## 더미 노드 기반 연결 리스트
 
-![더미노드 기반 연결리스트](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a40228a4-21a9-46b8-a0f7-d24323811523/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T165014Z&X-Amz-Expires=86400&X-Amz-Signature=d4a0c0bf014206b0d920db58bc8a45eb6025c4433418798494b47583fa1ded63&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+![더미노드 기반 연결리스트](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbCfbwR%2FbtrvdwaAXOx%2FKDkFEKCjEgmfOKqG5TBm2k%2Fimg.png)
 
 유효한 데이터를 지니지 않는 그냥 빈 노드  
 리스트 맨 앞에 위치하므로, head가 항상 더미 노드를 가리키고 있다.  

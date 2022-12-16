@@ -3,7 +3,7 @@ layout: post
 title: Ch 8. 트리
 subtitle: 윤성우의 열혈 자료구조
 cover-img: /assets/img/black.jpg
-thumbnail-img: https://s3.us-west-2.amazonaws.com/secure.notion-static.com/18093168-fcea-4201-bb1b-7bc8dacbcc0d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T170704Z&X-Amz-Expires=86400&X-Amz-Signature=5116e4b06cbd19135ea341293dfc048209426b966959d6290dd2a9518839410a&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject
+thumbnail-img: https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FoYict%2FbtrxhMvJta3%2FRnDbOYkC19Ohwf5FrroTBk%2Fimg.png
 share-img: /assets/img/path.jpg
 tags: [자료구조]
 ---
@@ -15,9 +15,9 @@ tags: [자료구조]
 계층적 관계를 ‘표현’하는 자료구조  
 예) 컴퓨터의 디렉터리 구조, 기업 및 정부의 조직도
 
-![트리](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/18093168-fcea-4201-bb1b-7bc8dacbcc0d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T170704Z&X-Amz-Expires=86400&X-Amz-Signature=5116e4b06cbd19135ea341293dfc048209426b966959d6290dd2a9518839410a&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+![트리](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FoYict%2FbtrxhMvJta3%2FRnDbOYkC19Ohwf5FrroTBk%2Fimg.png)
 
-![의사 결정 트리](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e3d00582-bfac-4596-bcc2-aea2f2deec85/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T170723Z&X-Amz-Expires=86400&X-Amz-Signature=d4c9b53c13ddf61cd6a424cab19d94380e317c667b99ee02aa0ba10200683b06&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+![의사 결정 트리](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FtoTf4%2FbtrxgxZNL2M%2Fl8XzlVNQJj7tm5PU3gKxN0%2Fimg.png)
 
 <br>
 
@@ -37,7 +37,7 @@ tags: [자료구조]
 
 ## 이진 트리와 서브 트리
 
-![서브 트리](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/46b94e57-0020-440c-8825-a582ab67d74b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T170926Z&X-Amz-Expires=86400&X-Amz-Signature=5c6723ae1d3a0daa32517994ffb64d119882e09520de51747738dc578d93e3de&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+![서브 트리](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbWQ7Ep%2FbtrxicU9qHK%2FhGKY4wcVXwKmLKhqn8NUuK%2Fimg.png)
 
 서브 트리: 큰 트리에 속하는 작은 트리
 
@@ -47,9 +47,9 @@ tags: [자료구조]
 
 +노드가 위치할 수 있는 곳에 노드가 없다면, 공집합 노드가 존재하는 것으로 간주한다.
 
-![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/18093168-fcea-4201-bb1b-7bc8dacbcc0d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T170704Z&X-Amz-Expires=86400&X-Amz-Signature=5116e4b06cbd19135ea341293dfc048209426b966959d6290dd2a9518839410a&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+![Untitled](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fc9zWgV%2Fbtrxh86pYst%2FdkFnPUQu3CSmegX9YKlNb1%2Fimg.png)
 
-![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5287b65a-3e16-4c87-a78a-8497d1e3fb80/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T171142Z&X-Amz-Expires=86400&X-Amz-Signature=69f26442375b1ffa159916223e243a9350e61ac1dd7dfacf6641caccdfecf29c&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+![Untitled](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FJwK4l%2Fbtrxh9jWwOZ%2FYLzJPyT9VLR9HxTtMXEg51%2Fimg.png)
 
 <br>
 
@@ -59,13 +59,13 @@ tags: [자료구조]
 
 모든 레벨이 꽉 차 있다.
 
-![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/475ac5d7-77be-4913-a57e-f76971289d00/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T171219Z&X-Amz-Expires=86400&X-Amz-Signature=e00e9ed022cf1023fc314fd55dbfa7c3e6c482bfc3c035d7988acfd4519451f9&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+![Untitled](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FlDNke%2FbtrxdH9G1Sf%2FCz6Kyw0BfQkJZxfhHNVuCk%2Fimg.png)
 
 ### 완전 이진 트리
 
 노드와 위에서 아래로, 왼쪽에서 오른쪽의 순서대로 채워진 이진트리
 
-![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8091e0e7-f22e-42b7-9ae1-bc8a2dcd7037/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T171223Z&X-Amz-Expires=86400&X-Amz-Signature=b71fc94792139f29625c0957efae02a3267bf5f08a2781364957ecc407948651&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+![Untitled](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FFgkRQ%2FbtrxiFv1gij%2FWQUk8XqX4e2NXqJkI0sPp1%2Fimg.png)
 
 <br>
 
@@ -219,7 +219,7 @@ class tree:
 
 이진 트리를 이용해서 수식을 표현해 놓은 것
 
-![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6a85820d-b888-43bc-a84f-07e7d59e60ee/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T171429Z&X-Amz-Expires=86400&X-Amz-Signature=c59ea01f80b4728921c11b014f616383a0a4817def457782ad52c0fc240fe3fb&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+![Untitled](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbPX27p%2Fbtrxex0KNNd%2FcI5b3YozEsdmgMsMSs4EBK%2Fimg.png)
 
 루트 노드에 저장된 연산자의 연산을 하되, 두 개의 자식 노드에 저장된 두 피연산자를 대상으로 연산을 한다.  
 `중위 표기법의 수식 → 후위 표기법의 수식 → 수식 트리`

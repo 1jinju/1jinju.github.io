@@ -3,7 +3,7 @@ layout: post
 title: Ch 11. 탐색 1
 subtitle: 윤성우의 열혈 자료구조
 cover-img: /assets/img/black.jpg
-thumbnail-img: https://s3.us-west-2.amazonaws.com/secure.notion-static.com/37dfe85d-986b-464b-889b-13f9b7dcb705/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T194243Z&X-Amz-Expires=86400&X-Amz-Signature=e9a90c16a2facb4b8b5948e82ab047719e754ce6f3af05481ccb50e6231be284&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject
+thumbnail-img: https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdUuQNR%2FbtrSDFpDDce%2FQc3jUK6x6qiKehFXjpDZ4K%2Fimg.png
 share-img: /assets/img/path.jpg
 tags: [자료구조]
 ---
@@ -16,7 +16,7 @@ tags: [자료구조]
 탐색대상이 앞쪽에 위치해 있으면 앞쪽에서 탐색을 시작하여 개선  
 예) 전화번호부에서 ‘김정수’라는 사람의 전화번호를 찾을 때 ‘ㄱ’에 해당하는 앞쪽에서 찾음  
 
-![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/37dfe85d-986b-464b-889b-13f9b7dcb705/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T194243Z&X-Amz-Expires=86400&X-Amz-Signature=e9a90c16a2facb4b8b5948e82ab047719e754ce6f3af05481ccb50e6231be284&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+![Untitled](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdUuQNR%2FbtrSDFpDDce%2FQc3jUK6x6qiKehFXjpDZ4K%2Fimg.png)
 
 *A:Q=high - low : s - low*
 
@@ -74,7 +74,7 @@ def interpolationSearch(arr, n, x):
     - 루트 노드의 키가 오른쪽 서브 트리를 구성하는 어떠한 노드의 키보다 작다
     - 왼쪽과 오른쪽 서브 트리도 이진 탐색 트리이다
 
-![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6643d46d-5b46-4b47-b899-c313ab471bb1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T194524Z&X-Amz-Expires=86400&X-Amz-Signature=7fede0d8c62ad02d850463371be38c2dccb8075d3a35c720a8779284dcb730ca&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+![Untitled](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbpO2NN%2FbtrSDezbB3t%2FaWw8IaWLDzJ0Byknuo9BO0%2Fimg.png)
 
 <aside>
 💡 왼쪽 자식 노드의 키 < 부모 노드의 키 < 오른쪽 자식 노드의 키
@@ -88,9 +88,9 @@ def interpolationSearch(arr, n, x):
     
     **case1**: 자식노드가 2개 있을 경우
     
-    ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6f0bcd66-9899-47b2-a6ff-b4fa662fc2df/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T194558Z&X-Amz-Expires=86400&X-Amz-Signature=b1da2d5dd8852118d42afba3c9d7157b56d918ed0e638a2955716018f21224ef&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+    ![Untitled](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcmgbJ8%2FbtrSHwSmt5i%2Fj1FW74M3sRaHlz1tcviyq0%2Fimg.png)
     
-    ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0e6ff322-ce41-43f6-bdac-f229e02913a5/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T194612Z&X-Amz-Expires=86400&X-Amz-Signature=559295a9773864e45a9bcc80ec694af42db76815d47c96c0f0c41741d58c702d&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+    ![Untitled](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcHB83d%2FbtrSF7lzhkf%2FBycKAwmKHvRo1K0Id3T6m1%2Fimg.png)
     
     **case2**: 자식노드가 1개 있을 경우
     

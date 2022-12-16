@@ -3,7 +3,7 @@ layout: post
 title: Ch 10. 정렬
 subtitle: 윤성우의 열혈 자료구조
 cover-img: /assets/img/black.jpg
-thumbnail-img: https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f4985344-19bd-419e-b2be-d1ebe44a6fb4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T192856Z&X-Amz-Expires=86400&X-Amz-Signature=f969b2ec0474bcdbeee8feac2a285c5884a170166fb727e8968ae70d42fb9353&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject
+thumbnail-img: https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FD656H%2FbtrSq9c3fHi%2F1UIgxFz01OQzGtVk31Ym5k%2Fimg.png
 share-img: /assets/img/path.jpg
 tags: [자료구조]
 ---
@@ -15,7 +15,7 @@ tags: [자료구조]
 인접한 두 개의 데이터를 비교해가면서 정렬을 진행   
 정렬순서 상 위치가 바뀌어야 하는 경우 두 데이터의 위치를 바꿔나감   
 
-![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f4985344-19bd-419e-b2be-d1ebe44a6fb4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T192856Z&X-Amz-Expires=86400&X-Amz-Signature=f969b2ec0474bcdbeee8feac2a285c5884a170166fb727e8968ae70d42fb9353&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+![Untitled](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FD656H%2FbtrSq9c3fHi%2F1UIgxFz01OQzGtVk31Ym5k%2Fimg.png)
 
 ### 버블 정렬 구현
     
@@ -56,7 +56,7 @@ def bubbleSort(arr): # 오름차순 정렬
 
 정렬순서 상 가장 앞서는 것을 선택해 가장 왼쪽으로 이동시키고, 원래 그 자리에 있던 데이터는 빈 자리에 가져다 놓음
 
-![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9c9b826f-7f44-4422-91d8-081d3ef42885/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T193222Z&X-Amz-Expires=86400&X-Amz-Signature=8d9697201e05e86e4d94c899a8445faba324d29fe65823ace1bdecefb6b8a997&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+![Untitled](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcSpXIJ%2FbtrStAgs20r%2F9mAczoS7N9vkDbAGk5MDWK%2Fimg.png)
 
 ### 선택 정렬 구현
     
@@ -91,7 +91,7 @@ def selectionSort(arr):
 
 정렬 대상을 두 부분으로 나눠서, 정렬 안 된 부분에 있는 데이터를 정렬된 부분의 특정 위치에 삽입해 가면서 정렬을 진행
 
-![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b3ff33fe-b7d8-4f85-b4eb-3bb8671947aa/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T193412Z&X-Amz-Expires=86400&X-Amz-Signature=d536d938275eca3cfea0947b2e7399f4236463cc342f5792680664a26a10e352&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+![Untitled](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdHuX8T%2FbtrSnFD7GMB%2FkHcfRqOe2rvZnGCq76DA10%2Fimg.png)
 
 ### 삽입 정렬 구현
     
@@ -133,7 +133,7 @@ def insertionSort(arr):
 
 힙의 루트 노드에 저장된 값이 정렬순서 상 가장 앞선다
 
-![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a4922723-621d-4fe7-b718-744cd5f040ce/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T193505Z&X-Amz-Expires=86400&X-Amz-Signature=2eae513e0deab4caf0e3ca0e6e1acb58124cf797519febbee37e191fd456cd3e&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+![Untitled](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbPqmIY%2FbtrSpwGNrtr%2FgyeiIdsSMKxMey53cEMzWK%2Fimg.png)
 
 ### 힙 정렬 구현
     
@@ -178,7 +178,7 @@ def heapSort(v):
 
 전체 데이터를 하나씩 구분이 될 때까지 분할한 후, 정렬순서를 고려하여 하나로 묶는다
 
-![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e1fb46d2-7340-4d2b-aad5-6370865b9226/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T193555Z&X-Amz-Expires=86400&X-Amz-Signature=3adb8bf2ad16a9b656edc7a088093d82bf15462f375d35f735d6e6fe1812c400&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+![Untitled](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F0Nj1h%2FbtrSq8LVC7p%2FoNT9Hbm2i41J6EHgNsYiq1%2Fimg.png)
 
 ### 병합 정렬 구현
     
@@ -228,7 +228,7 @@ def merge(left, right):
 - 피벗 앞에는 피벗보다 작은 값, 뒤에는 큰 값이 오도록 하여 리스트를 둘로 분할
 - 분할된 두 개 리스트 각각에 재귀적으로 이 과정을 반복
 
-![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/091690b0-1e1c-4857-a8b9-a2a34cccb060/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T193643Z&X-Amz-Expires=86400&X-Amz-Signature=46f6f0e9cf3cdc04837c839df0d67e7ee3f67377243da0e71ad2f15bb17b679e&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+![Untitled](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fcu5dGp%2FbtrSqksDESn%2FPomSCIH6lrCDpKP36ftDK1%2Fimg.png)
 
 ### 퀵 정렬 구현
     
@@ -268,7 +268,7 @@ def quickSort(arr):
 
 덜 중요한 자릿수에서부터 정렬을 진행
 
-![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a1b6f480-7654-4818-a9ca-497fc704b9da/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T193746Z&X-Amz-Expires=86400&X-Amz-Signature=e29e3341886616f9f1e95982f8c554ac2b44460f2dd73df9307c751f0237ca37&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+![Untitled](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbGSgYB%2FbtrStQjeAQj%2FMVSfQRFh18eK4PRfdy9Co0%2Fimg.png)
 
 **MSD**
 
@@ -276,7 +276,7 @@ def quickSort(arr):
 멈추지 않고 마지막 단계까지 진행했기 때문에 잘못된 결과 초래  
 중간에 데이터를 점검해야 함  
 
-![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0b5ad650-f93b-485e-9e34-713061599051/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T193800Z&X-Amz-Expires=86400&X-Amz-Signature=4baf2180c0ac873667a8bba1b25896d722f20c8c0022c0a863a6b7f131a1babe&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+![Untitled](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcALPJO%2FbtrSr6GXtyx%2FU1vcdXmfTeZOOb6lVMAr4K%2Fimg.png)
 
 ### 기수 정렬 구현(LSD)
     

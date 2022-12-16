@@ -3,7 +3,7 @@ layout: post
 title: Ch 6. 스택
 subtitle: 윤성우의 열혈 자료구조
 cover-img: /assets/img/black.jpg
-thumbnail-img: https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6f64bda0-10b2-4459-976b-1ddcd9a5dbf1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T170007Z&X-Amz-Expires=86400&X-Amz-Signature=eec0a713636c1de05931238aec80488893d7f481861cbaf98217e820ea893278&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject
+thumbnail-img: https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FnTNkl%2FbtrwzbWSH5f%2FMXp0miAItOYmC7fabr9BfK%2Fimg.png
 share-img: /assets/img/path.jpg
 tags: [자료구조]
 ---
@@ -40,7 +40,7 @@ def show(self): # 스택에 있는 데이터 보여줌
 
 # 06-2 스택의 배열 기반 구현
 
-![배열 기반 구현](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6f64bda0-10b2-4459-976b-1ddcd9a5dbf1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T170007Z&X-Amz-Expires=86400&X-Amz-Signature=eec0a713636c1de05931238aec80488893d7f481861cbaf98217e820ea893278&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+![배열 기반 구현](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FnTNkl%2FbtrwzbWSH5f%2FMXp0miAItOYmC7fabr9BfK%2Fimg.png)
 
 삽입과 삭제가 일어나는 끝은 Top, 반대편 끝은 Bottom
 
@@ -59,7 +59,7 @@ print(s.pop())
 print(s)
 ```
 
-![실행 결과](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f0e5e931-db76-421a-a39c-7d2eade97065/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T170133Z&X-Amz-Expires=86400&X-Amz-Signature=1427a4a0453ba438b0093253be989d5841964a30c5f230609b540602e102cd7d&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+![실행 결과](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb8r98K%2Fbtrwptrqm3w%2Fst1OKOxfzPobZIqo6kMjT1%2Fimg.png)
 
 <br>
 
@@ -67,7 +67,7 @@ print(s)
 
 # 06-3 스택의 연결 리스트 기반 구현
 
-![연결 리스트 기반 구현](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec8852bc-569d-4980-8c36-2236fb2d5667/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T170228Z&X-Amz-Expires=86400&X-Amz-Signature=847479e783508d0e3baa816c383f0209d3e86979a1337605b04684520ef25f0f&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+![연결 리스트 기반 구현](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbtqBuY%2FbtrwsInFgQA%2FxgULAtPYp6DuqcHQxggpIK%2Fimg.png)
 
 ```python
 class Node:
@@ -114,7 +114,7 @@ print(s.pop())
 s.show()
 ```
 
-![실행 결과](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1606a391-81f2-4bf4-a99d-770e1f689a41/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T170302Z&X-Amz-Expires=86400&X-Amz-Signature=46161c84ff7c59eab238ae37d94383c44f9addb71bf27a80e5a18053e8217796&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+![실행 결과](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FqQNC7%2Fbtrwl81W8R9%2FnjKOb3iKMDbO2nHiFlXCg1%2Fimg.png)
 
 <br>
 

@@ -3,7 +3,7 @@ layout: post
 title: Ch 9. 우선순위 큐와 힙
 subtitle: 윤성우의 열혈 자료구조
 cover-img: /assets/img/black.jpg
-thumbnail-img: https://s3.us-west-2.amazonaws.com/secure.notion-static.com/49ce3304-fa86-41eb-b09d-91a916d930fc/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T171912Z&X-Amz-Expires=86400&X-Amz-Signature=68bafa41efd7aa68905573274fb29e4ae78d212303f10475c2bced6afbc41634&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject
+thumbnail-img: https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbmZfgG%2FbtrSqYvShOO%2F6ht8EoIYA0sfl6s0lo8Sok%2Fimg.png
 share-img: /assets/img/path.jpg
 tags: [자료구조]
 ---
@@ -37,7 +37,7 @@ tags: [자료구조]
 이진 트리이되 완전 이진 트리  
 모든 노드에 저장된 값은 자신 노드에 저장된 값보다 크거나 같아야 한다.  
 
-![heap](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/49ce3304-fa86-41eb-b09d-91a916d930fc/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T171912Z&X-Amz-Expires=86400&X-Amz-Signature=68bafa41efd7aa68905573274fb29e4ae78d212303f10475c2bced6afbc41634&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+![heap](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbmZfgG%2FbtrSqYvShOO%2F6ht8EoIYA0sfl6s0lo8Sok%2Fimg.png)
 
 <br>
 
@@ -55,7 +55,7 @@ tags: [자료구조]
     
 3. 제대로 된 위치를 찾을 때까지 계속해서 부모 노드와 비교
 
-![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de0164bb-d18b-4758-a7a3-0da0d51a9a19/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T172005Z&X-Amz-Expires=86400&X-Amz-Signature=6769f269f93da3aed393321c69b9723caddc70d54b161b9bbada461e39cc027b&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+![Untitled](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbrrGRg%2FbtrSq9RDEnw%2FQXXqQ4ZZXBG8shRy6NHRkK%2Fimg.png)
 
 <br>
 
@@ -64,7 +64,7 @@ tags: [자료구조]
 1. 루트 노드를 삭제
 2. 마지막 노드를 루트 노드의 자리로 옮긴 후, 자식 노드와 비교를 통해 제자리를 찾아가게 함
 
-![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4f1d9b02-698a-486e-9a60-a838b23f3ad2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T172030Z&X-Amz-Expires=86400&X-Amz-Signature=bf91cdb8a57345ff6b8145dfdb285cadaa85d78b9e42cb0b3a87c6a003d151ad&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+![Untitled](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbfLtGo%2FbtrStRCrdeE%2FCkINx01o7NylHnKlTdm9J0%2Fimg.png)
 
 <br>
 

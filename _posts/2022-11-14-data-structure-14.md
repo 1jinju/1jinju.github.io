@@ -3,7 +3,7 @@ layout: post
 title: Ch 14. 그래프
 subtitle: 윤성우의 열혈 자료구조
 cover-img: /assets/img/black.jpg
-thumbnail-img: https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0fde049b-e766-458b-87c8-a289b704d83d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T200126Z&X-Amz-Expires=86400&X-Amz-Signature=a969ec56df934b46ad5f156b368aa9c9fa0b2644d0125453ddaef56e1563ae7f&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject
+thumbnail-img: https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcEIsCe%2FbtrSRQqdi2q%2FegPvjWkpTIEh7d9mMaFlqk%2Fimg.png
 share-img: /assets/img/path.jpg
 tags: [자료구조]
 ---
@@ -16,7 +16,7 @@ tags: [자료구조]
     
     모든 다리를 한 번씩만 건너서 처음 출발하는 장소로 돌아올 수 있는가
     
-    ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0fde049b-e766-458b-87c8-a289b704d83d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T200126Z&X-Amz-Expires=86400&X-Amz-Signature=a969ec56df934b46ad5f156b368aa9c9fa0b2644d0125453ddaef56e1563ae7f&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+    ![Untitled](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fd0tyPa%2FbtrSJFjw4bR%2FWozcQW1PGR16uCnnOsvP4K%2Fimg.png)
     
     정점: 연결의 대상이 되는 개체 또는 위치  
     간선: 정점 사이의 연결  
@@ -30,20 +30,20 @@ tags: [자료구조]
     무방향 그래프: 방향성이 없는 그래프  
     완전 그래프: 오른쪽과 같이 정점이 모두 연결된 그래프  
     
-    ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a28f7746-d8a2-457c-9c3d-ebc369532360/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T200205Z&X-Amz-Expires=86400&X-Amz-Signature=2a06f61409e689a2da25720c57bffad34ceaa0f36db0547fe4d5f1f307e741d2&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+    ![Untitled](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fpo5pP%2FbtrSJW6oZlT%2FJfMU9g3MxYg92dw3j1I240%2Fimg.png)
     
 - 방향 그래프: 방향성이 있는 그래프
     
-    ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/68299e09-b3cb-4d5b-9fb7-af3b754e2c98/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T200229Z&X-Amz-Expires=86400&X-Amz-Signature=bcedf9930249ff7f7fa5163a94c12d86f79cb0f7d94ff203d95ab5097c534279&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+    ![Untitled](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fpo5pP%2FbtrSJW6oZlT%2FJfMU9g3MxYg92dw3j1I240%2Fimg.png)
     
 
 - 가중치 그래프: 간선에 가중치를 담아서 표현
     
-    ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/81b4696f-fa70-459d-bd0b-c654797fbbf2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T200243Z&X-Amz-Expires=86400&X-Amz-Signature=ed13d1f585c7dcd1793530cb4574777350e125777e949ad546585b8a7d16cd88&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+    ![Untitled](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbGytlo%2FbtrSM4WV6xA%2F6CTrSqGCYT8wXVxJTVu2Zk%2Fimg.png)
     
 - 부분 그래프: 일부 정점과 간선으로 구성된 그래프
     
-    ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/99ef7fe8-4981-4c6a-aaf2-d86164a0ad2b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T200257Z&X-Amz-Expires=86400&X-Amz-Signature=acf41fcfa2343f8bdbc1d01b2a3512691ba7720ff4e9f483382541d072748e00&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+    ![Untitled](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FlyDJp%2FbtrSKuBXz7m%2F1qqZ5Nsf2B2hZP51izzSR0%2Fimg.png)
 
 <br>
 
@@ -60,7 +60,7 @@ tags: [자료구조]
 1. 인접 행렬 기반 그래프: 정방행렬을 활용
 2. 인접 리스트 기반 그래프: 연결 리스트를 활용
 
-![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/34a6368c-bbae-4e0f-8a16-c3da62218517/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T200333Z&X-Amz-Expires=86400&X-Amz-Signature=c41384e27676d32c7ef60a5c988f5bc71309af8d3dbb018d5051dc8fd7dbbb3a&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+![Untitled](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcBZQjD%2FbtrSSMaaaag%2FmLkB1Q2h8rijIE0KZ43vL0%2Fimg.png)
 
 <br>
 
@@ -98,7 +98,7 @@ for _ in range(k):
 먼저 시작 정점에서부터 정점을 하나씩 선택하여 탐색을 시작  
 스택 이용  
 
-![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a8fe90ee-36ba-41cc-8d96-acbcdf281d24/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T200410Z&X-Amz-Expires=86400&X-Amz-Signature=4e6ee3eeccef9a0e0ccd94b05d732b8a82d3cea6ce868b116025c4d2ed2500ff&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+![Untitled](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbofeS2%2FbtrSTxcTilq%2FiZhFK6qV0KXkMgXkODAozK%2Fimg.png)
 
 ```python
 # 스택으로 구현한 깊이 우선 탐색

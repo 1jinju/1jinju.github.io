@@ -3,7 +3,7 @@ layout: post
 title: Ch 2. 재귀
 subtitle: 윤성우의 열혈 자료구조
 cover-img: /assets/img/black.jpg
-thumbnail-img: https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4b4790f2-9ad1-4ace-805e-55d56068bed5/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T162206Z&X-Amz-Expires=86400&X-Amz-Signature=b803e9ea572b4e33d8af81cc05dcbe41446ca45d3468f0fe228d11627d4f93e0&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject
+thumbnail-img: https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fcil3sy%2Fbtrtlaaou9Z%2FOzKxEzB0Hv3rrEhxVR7GEk%2Fimg.png
 share-img: /assets/img/path.jpg
 tags: [자료구조]
 ---
@@ -66,7 +66,7 @@ int Fibo(int n) {
 }
 ```
 
-![재귀함수 호출 구조](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4b4790f2-9ad1-4ace-805e-55d56068bed5/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221211%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221211T162206Z&X-Amz-Expires=86400&X-Amz-Signature=b803e9ea572b4e33d8af81cc05dcbe41446ca45d3468f0fe228d11627d4f93e0&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+![재귀함수 호출 구조](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fcil3sy%2Fbtrtlaaou9Z%2FOzKxEzB0Hv3rrEhxVR7GEk%2Fimg.png)
 
 👉 재귀함수는 많은 수의 함수 호출을 동반
 
